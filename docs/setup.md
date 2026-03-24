@@ -11,12 +11,16 @@ The Playbooks are installed in "10 - SP - Netskope List Management"
 
 # Configuration
  
-- Open and start the playbook : 0 - Managed Netskope URL List - Configure
+1- Open and start the playbook : 0 - Managed Netskope URL List - Configure
+
+![](./res/installation-02.png)
+
+2- Make your choice
    - Select in the list the IDs you want to manage with FortiSOAR
    - Define the IP end of life duration
    - Define the URL end of life duration
  
-![](./configuration01.png)
+![](./res/configuration01.png)
 
 - Open and start the playbook : 1 - Managed Netskope URL List - Ingest
    - This playbook will fetch the selected Netskope list ID objects and create records with an end of life duration (valid until)
