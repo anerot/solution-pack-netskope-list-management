@@ -16,7 +16,7 @@ Install the Solution Pack. This is an example screenshot and what you see in the
 - Schedule once per day the playbook: 2 - Managed Netskope URL List - Push not expired feeds
    - This playbook will select and push the not expired IOCs for each Managed URL List and Apply the changes in Netskope.
 the records life cycle of the selected Netskope URL list IDs based on URL and IPs record validity duration. 
-<img width="861" height="593" alt="prompt" src="https://github.com/user-attachments/assets/adb2368a-a665-4355-ace9-7dae1a872614" />
+![](./configuration01.png)
 
 | [Installation](./setup.md#installation) | [Configuration](./setup.md#configuration) | [Usage](./usage.md) |
 |-----------------------------------------|-------------------------------------------|---------------------|
