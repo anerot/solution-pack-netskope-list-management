@@ -4,7 +4,7 @@
 # Installation
 
 Install the Solution Pack. This is an example screenshot and what you see in the content hub may defer in version and details. 
-![](./installation.png)
+![](./res/installation-01.png)
 
 # Configuration
  
