@@ -7,20 +7,21 @@ Install the Solution Pack. This is an example screenshot and what you see in the
 ![](./res/installation-01.png)
 
 The Playbooks are installed in "10 - SP - Netskope List Management"
-![](.res/playbook-list.png)
+![](./res/playbook-list.png)
 
 # Configuration
  
 1- Open and start the playbook : 0 - Managed Netskope URL List - Configure
-
 ![](./res/installation-02.png)
 
-2- Make your choice
+2- Make your choice 
    - Select in the list the IDs you want to manage with FortiSOAR
    - Define the IP end of life duration
    - Define the URL end of life duration
- 
-![](./res/configuration01.png)
+ ![](./res/configuration-01.png)
+
+3- As a result FortiSOAR will create the key "netskope-threat-url" in the "Key Store" module.
+![](./res/configuration-02.png)
 
 - Open and start the playbook : 1 - Managed Netskope URL List - Ingest
    - This playbook will fetch the selected Netskope list ID objects and create records with an end of life duration (valid until)
