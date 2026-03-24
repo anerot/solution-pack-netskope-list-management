@@ -6,6 +6,9 @@
 Install the Solution Pack. This is an example screenshot and what you see in the content hub may defer in version and details. 
 ![](./res/installation-01.png)
 
+The Playbooks are installed in "10 - SP - Netskope List Management"
+![](.res/playbook-list.png)
+
 # Configuration
  
 - Open and start the playbook : 0 - Managed Netskope URL List - Configure
