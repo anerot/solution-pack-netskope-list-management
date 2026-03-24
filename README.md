@@ -15,5 +15,5 @@ Each entry in TIM is created with the "valid until" value based on the duration 
 
 # Next Steps
 
-| [Installation](./docs/setup.md#installation) | [Configuration](./docs/setup.md#configuration) | [Usage](./docs/usage.md) | [Contents](./docs/contents.md) |
-|----------------------------------------------|------------------------------------------------|--------------------------|--------------------------------|
+| [Installation](./docs/setup.md#installation) | [Configuration](./docs/setup.md#configuration) | [Usage](./docs/setup.md#usage)
+|----------------------------------------------|------------------------------------------------|-------------------------------|
