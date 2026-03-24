@@ -20,11 +20,14 @@ The Playbooks are installed in "10 - SP - Netskope List Management"
    - Define the URL end of life duration
  ![](./res/configuration-01.png)
 
-3- As a result FortiSOAR will create the key "netskope-threat-url" in the "Key Store" module.
+   - As a result FortiSOAR will create the key "netskope-threat-url" in the "Key Store" module to store your configuration.
 ![](./res/configuration-02.png)
 
-- Open and start the playbook : 1 - Managed Netskope URL List - Ingest
-   - This playbook will fetch the selected Netskope list ID objects and create records with an end of life duration (valid until)
+4- Open and start the playbook : 1 - Managed Netskope URL List - Ingest
+
+This playbook will fetch the selected Netskope list ID objects and create records with an end of life duration (valid until)
+
+
 - Schedule once per day the playbook: 2 - Managed Netskope URL List - Push not expired feeds
    - This playbook will select and push the not expired IOCs for each Managed URL List and Apply the changes in Netskope.
 the records life cycle of the selected Netskope URL list IDs based on URL and IPs record validity duration. 
