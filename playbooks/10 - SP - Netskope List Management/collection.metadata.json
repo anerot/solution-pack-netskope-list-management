@@ -1,0 +1,11 @@
+{
+    "@context": "\/api\/3\/contexts\/WorkflowCollection",
+    "@type": "WorkflowCollection",
+    "name": "10 - SP - Netskope List Management",
+    "description": null,
+    "visible": true,
+    "image": null,
+    "uuid": "b16b4bd2-5df2-418c-8cad-41045a196c7d",
+    "deletedAt": null,
+    "recordTags": []
+}

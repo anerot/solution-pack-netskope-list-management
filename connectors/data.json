@@ -1,0 +1,15 @@
+[
+    {
+        "name": "netskope",
+        "label": "Netskope",
+        "category": [
+            "Network Security"
+        ],
+        "description": "Netskope provides smart cloud security which controls activities across any cloud service or website and provides 360-degree data and threat protection that works everywhere. This connector facilitates automated operations like get alerts list, get events list, and urls related operations.",
+        "publisher": null,
+        "operation_roles": [],
+        "configurations": [],
+        "dataImports": [],
+        "install_mode": "rpm"
+    }
+]
